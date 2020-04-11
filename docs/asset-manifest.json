@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ffe7b2a.chunk.css",
+    "main.js": "/static/js/main.b8b374a8.chunk.js",
+    "main.js.map": "/static/js/main.b8b374a8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.28e6e686.js",
+    "runtime-main.js.map": "/static/js/runtime-main.28e6e686.js.map",
+    "static/js/2.35e13814.chunk.js": "/static/js/2.35e13814.chunk.js",
+    "static/js/2.35e13814.chunk.js.map": "/static/js/2.35e13814.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dcc7c31c15294e60c47fe93d6c3324ef.js": "/precache-manifest.dcc7c31c15294e60c47fe93d6c3324ef.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8ffe7b2a.chunk.css.map": "/static/css/main.8ffe7b2a.chunk.css.map",
+    "static/js/2.35e13814.chunk.js.LICENSE.txt": "/static/js/2.35e13814.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/static/media/fa-solid-900.cdfec5cf.woff",
+    "static/media/flip.wav": "/static/media/flip.5cd371c1.wav",
+    "static/media/gameOver.wav": "/static/media/gameOver.f768a2ef.wav",
+    "static/media/line-awesome.min.css": "/static/media/la-solid-900.bb49393b.ttf",
+    "static/media/match.wav": "/static/media/match.7ffc3cb0.wav",
+    "static/media/victory.wav": "/static/media/victory.fcab41c3.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28e6e686.js",
+    "static/js/2.35e13814.chunk.js",
+    "static/css/main.8ffe7b2a.chunk.css",
+    "static/js/main.b8b374a8.chunk.js"
+  ]
+}
