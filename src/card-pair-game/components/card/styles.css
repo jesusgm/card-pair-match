@@ -87,3 +87,17 @@
 .card.visible .card-front {
     transform: rotateY(0);
 }
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(calc(100% / 4) - 10px);
+        height: 180px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: calc(calc(100% / 4) - 10px);
+        height: 100px;
+    }
+}

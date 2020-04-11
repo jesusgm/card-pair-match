@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/card-pair-match/static/css/main.51e24cef.chunk.css",
+    "main.css": "/card-pair-match/static/css/main.69f14ddd.chunk.css",
     "main.js": "/card-pair-match/static/js/main.21090e42.chunk.js",
     "main.js.map": "/card-pair-match/static/js/main.21090e42.chunk.js.map",
     "runtime-main.js": "/card-pair-match/static/js/runtime-main.5dca7c27.js",
@@ -8,9 +8,9 @@
     "static/js/2.35e13814.chunk.js": "/card-pair-match/static/js/2.35e13814.chunk.js",
     "static/js/2.35e13814.chunk.js.map": "/card-pair-match/static/js/2.35e13814.chunk.js.map",
     "index.html": "/card-pair-match/index.html",
-    "precache-manifest.a902418dcd11ba2444a9dabc893b46df.js": "/card-pair-match/precache-manifest.a902418dcd11ba2444a9dabc893b46df.js",
+    "precache-manifest.62e638bb7b817620a9ee4a48609f5117.js": "/card-pair-match/precache-manifest.62e638bb7b817620a9ee4a48609f5117.js",
     "service-worker.js": "/card-pair-match/service-worker.js",
-    "static/css/main.51e24cef.chunk.css.map": "/card-pair-match/static/css/main.51e24cef.chunk.css.map",
+    "static/css/main.69f14ddd.chunk.css.map": "/card-pair-match/static/css/main.69f14ddd.chunk.css.map",
     "static/js/2.35e13814.chunk.js.LICENSE.txt": "/card-pair-match/static/js/2.35e13814.chunk.js.LICENSE.txt",
     "static/media/all.min.css": "/card-pair-match/static/media/fa-solid-900.cdfec5cf.woff",
     "static/media/flip.wav": "/card-pair-match/static/media/flip.5cd371c1.wav",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.5dca7c27.js",
     "static/js/2.35e13814.chunk.js",
-    "static/css/main.51e24cef.chunk.css",
+    "static/css/main.69f14ddd.chunk.css",
     "static/js/main.21090e42.chunk.js"
   ]
 }
