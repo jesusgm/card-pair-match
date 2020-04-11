@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+    font-family: 'Bubblegum Sans', cursive;
+
+    font-family: 'Russo One', sans-serif;
+*/
+
+
+
+.card-pair-game-container {
+    max-width: 90%;
+    margin: 0 auto;
+    width: 1024px;
+    padding: 25px 0;
+}
+
+.title {
+    font-family: 'Bubblegum Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    font-size: 40px;
+    color: #333333;
+    text-shadow: 0 0 30px #333;
+    margin-bottom: 1rem;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-family: 'Russo One', sans-serif;
+    font-size: 24px;
+    color: #333333;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    perspective: 500px;
+}
+
+
+.overlay-text {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    transition: background-color 500ms, font-size 500ms;
+    cursor: pointer;
+}
+
+.overlay-text-small {
+    font-size: .3em;
+}
+
+.overlay-text.visible {
+    display: flex;
+    animation: overlay-grow 500ms forwards;
+}
