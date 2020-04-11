@@ -28,7 +28,7 @@ function CardPairGame() {
       setShowVictory(true);
       audio.victory();
     }
-  }, [cards, matchedCards]);
+  }, [cards, matchedCards, audio]);
 
   function shuffle(array) {
     return array
@@ -55,15 +55,16 @@ function CardPairGame() {
   function addCards() {
     const cardsToAdd = [];
     let symbolCounter = 0;
+    const randomSymbols = shuffle(symbols);
     for (let i = 0; i < NUMBER_OF_CARDS; i += 2) {
       cardsToAdd.push({
-        value: symbols[symbolCounter].icon,
-        color: symbols[symbolCounter].color,
+        value: randomSymbols[symbolCounter].icon,
+        color: randomSymbols[symbolCounter].color,
       });
 
       cardsToAdd.push({
-        value: symbols[symbolCounter].icon,
-        color: symbols[symbolCounter].color,
+        value: randomSymbols[symbolCounter].icon,
+        color: randomSymbols[symbolCounter].color,
       });
 
       symbolCounter++;
