@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "369ecda96848ae08cc2ed9d21a82d38e",
+    "revision": "c3164d6c4bbbbd36fc4db416f9e7885d",
     "url": "/card-pair-match/index.html"
   },
   {
-    "revision": "a53dfadcf47c79320024",
+    "revision": "ff683f6941bcd74deb3c",
     "url": "/card-pair-match/static/css/main.69f14ddd.chunk.css"
   },
   {
-    "revision": "0efd844579bb918b3cc3",
-    "url": "/card-pair-match/static/js/2.35e13814.chunk.js"
+    "revision": "1bc4ef5c6ec2abe10168",
+    "url": "/card-pair-match/static/js/2.cd71c73f.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/card-pair-match/static/js/2.35e13814.chunk.js.LICENSE.txt"
+    "url": "/card-pair-match/static/js/2.cd71c73f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a53dfadcf47c79320024",
-    "url": "/card-pair-match/static/js/main.21090e42.chunk.js"
+    "revision": "ff683f6941bcd74deb3c",
+    "url": "/card-pair-match/static/js/main.0211ad3d.chunk.js"
   },
   {
     "revision": "795aef548c9ff3b3d4be",
