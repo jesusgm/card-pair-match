@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3164d6c4bbbbd36fc4db416f9e7885d",
+    "revision": "ac502496a724b9234b29421cf7f1bfd0",
     "url": "/card-pair-match/index.html"
   },
   {
-    "revision": "ff683f6941bcd74deb3c",
-    "url": "/card-pair-match/static/css/main.69f14ddd.chunk.css"
+    "revision": "2f059dfae20a8be9c2ab",
+    "url": "/card-pair-match/static/css/main.826d086b.chunk.css"
   },
   {
-    "revision": "1bc4ef5c6ec2abe10168",
-    "url": "/card-pair-match/static/js/2.cd71c73f.chunk.js"
+    "revision": "90165f18500d28c5c1df",
+    "url": "/card-pair-match/static/js/2.55a8cefa.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/card-pair-match/static/js/2.cd71c73f.chunk.js.LICENSE.txt"
+    "url": "/card-pair-match/static/js/2.55a8cefa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff683f6941bcd74deb3c",
-    "url": "/card-pair-match/static/js/main.0211ad3d.chunk.js"
+    "revision": "2f059dfae20a8be9c2ab",
+    "url": "/card-pair-match/static/js/main.82001e9e.chunk.js"
   },
   {
     "revision": "795aef548c9ff3b3d4be",
