@@ -3,8 +3,10 @@ import Card from "./components/card";
 import symbols from "./symbols.json";
 import AudioController from "./audio-controller";
 import "./styles.css";
-const NUMBER_OF_CARDS = 24;
-const TIME_TO_PLAY = 120;
+
+const NUMBER_OF_CARDS = symbols.length * 2;
+const TIME_TO_PLAY = 150;
+
 let timer;
 
 function CardPairGame() {
@@ -114,7 +116,7 @@ function CardPairGame() {
         }
         setBussy(false);
         setFlips(flips + 1);
-      }, 1000);
+      }, 600);
     }
   }
 

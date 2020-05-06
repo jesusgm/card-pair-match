@@ -13,7 +13,7 @@
 .card-pair-game-container {
     max-width: 90%;
     margin: 0 auto;
-    width: 1024px;
+    width: 1366px;
     padding: 25px 0;
 }
 
@@ -43,7 +43,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    perspective: 500px;
+    perspective: 2000px;
 }
 
 

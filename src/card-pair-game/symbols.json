@@ -61,5 +61,25 @@
     {
         "icon": "frog",
         "color": "#0b860d"
+    },
+    {
+        "icon": "bell",
+        "color": "#666666"
+    },
+    {
+        "icon": "bomb",
+        "color": "#000000"
+    },
+    {
+        "icon": "cloud",
+        "color": "grey"
+    },
+    {
+        "icon": "fire-extinguisher",
+        "color": "#ff0000"
+    },
+    {
+        "icon": "highlighter",
+        "color": "#ebe534"
     }
 ]
