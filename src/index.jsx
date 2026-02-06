@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import CardPairGame from "./card-pair-game";
 
-import "./index.css";
+import "./global.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

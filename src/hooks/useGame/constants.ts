@@ -73,7 +73,7 @@ export const symbols = [
   },
   {
     icon: "cloud",
-    color: "grey",
+    color: "#0088f8",
   },
   {
     icon: "fire-extinguisher",

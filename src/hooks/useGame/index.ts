@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { symbols } from "./constants";
 import AudioController from "../../card-pair-game/audio-controller";
+import { shuffle } from "../../utils";
 
 interface Card {
   value: string;
@@ -9,8 +10,9 @@ interface Card {
   visible?: boolean;
 }
 
-const NUMBER_OF_CARDS = (symbols.length - 1) * 2;
+const NUMBER_OF_CARDS = symbols.length * 2;
 const TIME_TO_PLAY = 150;
+const ONE_SECOND = 1000;
 
 let timer: number;
 
@@ -25,13 +27,6 @@ export function useGame(audio: AudioController) {
   const [showGameOver, setShowGameOver] = useState(false);
   const [showVictory, setShowVictory] = useState(false);
 
-  function shuffle(array: any[]) {
-    return array
-      .map((a) => ({ sort: Math.random(), value: a }))
-      .sort((a, b) => a.sort - b.sort)
-      .map((a) => a.value);
-  }
-
   function startGame() {
     setMatchedCards([]);
     setCardToCheck([]);
@@ -42,7 +37,7 @@ export function useGame(audio: AudioController) {
     timer = setInterval(() => {
       updateTimeLeft(localTimeLeft);
       localTimeLeft--;
-    }, 1000);
+    }, ONE_SECOND);
 
     addCards();
   }
@@ -69,7 +64,6 @@ export function useGame(audio: AudioController) {
   }
 
   function updateTimeLeft(timeLeft: number) {
-    console.log(timeLeft);
     if (timeLeft === 0) {
       setShowGameOver(true);
       audio.gameOver();
@@ -113,7 +107,6 @@ export function useGame(audio: AudioController) {
     }
   }
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => addCards(), []);
 
   useEffect(() => {
