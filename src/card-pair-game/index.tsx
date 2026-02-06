@@ -3,7 +3,8 @@ import Card from "./components/card";
 import AudioController from "./audio-controller";
 import { useGame } from "../hooks/useGame";
 
-import "./styles.css";
+import cn from "classnames";
+import styles from "./styles.module.css";
 
 function CardPairGame() {
   const audio = new AudioController();
@@ -25,13 +26,13 @@ function CardPairGame() {
   } = useGame(audio);
 
   return (
-    <div className="card-pair-game-container">
-      <div className="title">Match the cards!!!</div>
-      <div className="game-info">
-        <div className="time-left">Time left: {timeLeft}s</div>
-        <div className="flips">Flips: {flips}</div>
+    <div className={styles["card-pair-game-container"]}>
+      <div className={styles.title}>Match the cards!!!</div>
+      <div className={styles["game-info"]}>
+        <div className={styles["time-left"]}>Time left: {timeLeft}s</div>
+        <div className={styles.flips}>Flips: {flips}</div>
       </div>
-      <div className="cards-container">
+      <div className={styles["cards-container"]}>
         {cards &&
           cards.map((card) => {
             return (
@@ -48,7 +49,7 @@ function CardPairGame() {
           })}
       </div>
       <div
-        className={`overlay-text ${showStart ? "visible" : ""}`}
+        className={cn(styles["overlay-text"], showStart && styles.visible)}
         onClick={() => {
           setShowStart(false);
           startGame();
@@ -57,24 +58,24 @@ function CardPairGame() {
         Click to Start
       </div>
       <div
-        className={`overlay-text ${showGameOver ? "visible" : ""}`}
+        className={cn(styles["overlay-text"], showGameOver && styles.visible)}
         onClick={() => {
           setShowGameOver(false);
           startGame();
         }}
       >
         GAME OVER
-        <span className="overlay-text-small">Click to Restart</span>
+        <span className={styles["overlay-text-small"]}>Click to Restart</span>
       </div>
       <div
-        className={`overlay-text ${showVictory ? "visible" : ""}`}
+        className={cn(styles["overlay-text"], showVictory && styles.visible)}
         onClick={() => {
           setShowVictory(false);
           startGame();
         }}
       >
         VICTORY
-        <span className="overlay-text-small">Click to Restart</span>
+        <span className={styles["overlay-text-small"]}>Click to Restart</span>
       </div>
     </div>
   );

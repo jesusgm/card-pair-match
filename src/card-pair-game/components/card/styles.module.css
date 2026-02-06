@@ -39,7 +39,7 @@
   transform: rotateY(180deg);
 }
 
-.card .card-front .icon {
+.card .card-front :global(.icon) {
   font-size: 80px;
 }
 
@@ -74,7 +74,7 @@
   background-size: 27px;
 }
 
-.card .card-back .icon {
+.card .card-back :global(.icon) {
   font-size: 50px;
   z-index: 1;
 }
