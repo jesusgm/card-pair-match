@@ -1,19 +1,25 @@
 import flip from "./assets/audio/flip.wav";
 import victory from "./assets/audio/victory.wav";
 import match from "./assets/audio/match.wav";
-import gameover from "./assets/audio/gameOver.wav";
+import gameOver from "./assets/audio/gameOver.wav";
 
 class AudioController {
-  constructor(volumen = 50) {
-    this.volumen = volumen;
+  volume: number;
+  flipSound: HTMLAudioElement;
+  victorySound: HTMLAudioElement;
+  matchSound: HTMLAudioElement;
+  gameOverSound: HTMLAudioElement;
+
+  constructor(volume = 50) {
+    this.volume = volume;
     this.flipSound = new Audio(flip);
-    this.flipSound.volume = this.volumen / 100;
+    this.flipSound.volume = this.volume / 100;
     this.victorySound = new Audio(victory);
-    this.victorySound.volume = this.volumen / 100;
+    this.victorySound.volume = this.volume / 100;
     this.matchSound = new Audio(match);
-    this.matchSound.volume = this.volumen / 100;
-    this.gameOverSound = new Audio(gameover);
-    this.gameOverSound.volume = this.volumen / 100;
+    this.matchSound.volume = this.volume / 100;
+    this.gameOverSound = new Audio(gameOver);
+    this.gameOverSound.volume = this.volume / 100;
   }
 
   flip() {
