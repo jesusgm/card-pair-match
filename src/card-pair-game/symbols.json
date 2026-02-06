@@ -1,85 +1,86 @@
-[{
-        "icon": "apple-alt",
-        "color": "#eb6b6b"
-    },
-    {
-        "icon": "lemon",
-        "color": "yellow"
-    },
-    {
-        "icon": "carrot",
-        "color": "#ff9f33"
-    },
-    {
-        "icon": "cheese",
-        "color": "#f4e364"
-    },
-    {
-        "icon": "fish",
-        "color": "#64b9f4"
-    },
-    {
-        "icon": "candy-cane",
-        "color": "#ff0000"
-    },
-    {
-        "icon": "leaf",
-        "color": "#02a34b"
-    },
-    {
-        "icon": "football-ball",
-        "color": "#924625"
-    },
-    {
-        "icon": "wine-bottle",
-        "color": "#039632"
-    },
-    {
-        "icon": "car-side",
-        "color": "#a1b821"
-    },
-    {
-        "icon": "campground",
-        "color": "#5121b8"
-    },
-    {
-        "icon": "envelope",
-        "color": "#bdc8c3"
-    },
-    {
-        "icon": "glasses",
-        "color": "#000000"
-    },
-    {
-        "icon": "phone",
-        "color": "#e0d18f"
-    },
-    {
-        "icon": "save",
-        "color": "#2873ee"
-    },
-    {
-        "icon": "frog",
-        "color": "#0b860d"
-    },
-    {
-        "icon": "bell",
-        "color": "#666666"
-    },
-    {
-        "icon": "bomb",
-        "color": "#000000"
-    },
-    {
-        "icon": "cloud",
-        "color": "grey"
-    },
-    {
-        "icon": "fire-extinguisher",
-        "color": "#ff0000"
-    },
-    {
-        "icon": "highlighter",
-        "color": "#ebe534"
-    }
+[
+  {
+    "icon": "apple-alt",
+    "color": "#eb6b6b"
+  },
+  {
+    "icon": "lemon",
+    "color": "yellow"
+  },
+  {
+    "icon": "carrot",
+    "color": "#ff9f33"
+  },
+  {
+    "icon": "cheese",
+    "color": "#f4e364"
+  },
+  {
+    "icon": "fish",
+    "color": "#64b9f4"
+  },
+  {
+    "icon": "candy-cane",
+    "color": "#ff0000"
+  },
+  {
+    "icon": "leaf",
+    "color": "#02a34b"
+  },
+  {
+    "icon": "football-ball",
+    "color": "#924625"
+  },
+  {
+    "icon": "wine-bottle",
+    "color": "#039632"
+  },
+  {
+    "icon": "car-side",
+    "color": "#a1b821"
+  },
+  {
+    "icon": "campground",
+    "color": "#5121b8"
+  },
+  {
+    "icon": "envelope",
+    "color": "#bdc8c3"
+  },
+  {
+    "icon": "glasses",
+    "color": "#000000"
+  },
+  {
+    "icon": "phone",
+    "color": "#e0d18f"
+  },
+  {
+    "icon": "save",
+    "color": "#2873ee"
+  },
+  {
+    "icon": "frog",
+    "color": "#0b860d"
+  },
+  {
+    "icon": "bell",
+    "color": "#666666"
+  },
+  {
+    "icon": "bomb",
+    "color": "#000000"
+  },
+  {
+    "icon": "cloud",
+    "color": "grey"
+  },
+  {
+    "icon": "fire-extinguisher",
+    "color": "#ff0000"
+  },
+  {
+    "icon": "highlighter",
+    "color": "#ebe534"
+  }
 ]

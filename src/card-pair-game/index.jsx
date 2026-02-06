@@ -4,7 +4,7 @@ import symbols from "./symbols.json";
 import AudioController from "./audio-controller";
 import "./styles.css";
 
-const NUMBER_OF_CARDS = symbols.length * 2;
+const NUMBER_OF_CARDS = (symbols.length-1) * 2;
 const TIME_TO_PLAY = 150;
 
 let timer;
@@ -13,7 +13,7 @@ function CardPairGame() {
   const [cards, setCards] = useState([]);
   const [cardToCheck, setCardToCheck] = useState([]);
   const [matchedCards, setMatchedCards] = useState([]);
-  const [bussy, setBussy] = useState(false);
+  const [busy, setBusy] = useState(false);
   const [flips, setFlips] = useState(0);
   const [timeLeft, setTimeLeft] = useState(TIME_TO_PLAY);
   const [showStart, setShowStart] = useState(true);
@@ -87,7 +87,7 @@ function CardPairGame() {
   }
 
   function flipCard(card) {
-    if (bussy) return;
+    if (busy) return;
     audio.flip();
     if (cardToCheck.length === 0) {
       setCardToCheck([card]);
@@ -101,7 +101,7 @@ function CardPairGame() {
         })
       );
     } else {
-      setBussy(true);
+      setBusy(true);
       setCardToCheck([...cardToCheck, card]);
       setTimeout(() => {
         if (
@@ -114,7 +114,7 @@ function CardPairGame() {
         } else {
           setCardToCheck([]);
         }
-        setBussy(false);
+        setBusy(false);
         setFlips(flips + 1);
       }, 600);
     }
